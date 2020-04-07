@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+}
+
+header{
+    text-align: right;
+}
+
+header button{
+    padding: 5px;
+    background-color: #323232;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: rgba(50, 50, 50, 0.7);
+}
+
+main{
+    padding: 30px 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    height: calc(100vh - 106px) ;
+}
+
+.avatar{
+    width: 250px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: green;
+}
