@@ -7,13 +7,14 @@
 body{
     background-color: #111;
     font-family: 'Roboto', sans-serif;
+    color:#dcdcdc;
 }
 
 header{
     text-align: right;
 }
 
-header button{
+button{
     padding: 5px;
     background-color: #323232;
     color: #fff;
@@ -23,11 +24,12 @@ header button{
     cursor: pointer;
 }
 
-header button:hover{
+button:hover{
     background-color: rgba(50, 50, 50, 0.7);
 }
 
 main{
+    color: #fff;
     padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +45,6 @@ main{
     height: 150px;
     border: 2px solid black;
     position: relative;
-    color: #fff;
     margin: 3px;
 }
 
@@ -75,6 +76,50 @@ margin-right: 3px;
 
 footer{
     height: 60px;
-    width: 100%;
-    background-color: green;
+    background-color: #222326;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-left{
+    margin-left: 10px;
+}
+
+.icon{
+    display: inline-block;
+    margin: 0 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.icon:hover{
+    color:green;
+}
+.icon i{
+    font-size: 24px;
+    padding-bottom: 3px;
+}
+
+.icon p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.angle-container{
+    font-size: 18px;
+    display: inline-block;
+}
+
+#footer-right button{
+    color: red;
+    margin: 0;
+    border-radius: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+@media all and (max-width:992px)  {
+    #footer-center{
+        display: none;
+    }
 }
