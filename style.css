@@ -83,12 +83,18 @@ footer{
 
 #footer-left{
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#footer-center{
+    display: flex;
+    align-items: center;
 }
 
 .icon{
     display: inline-block;
     margin: 0 15px;
-    padding-top: 5px;
     text-align: center;
 }
 
